@@ -6,33 +6,6 @@ import React from "react";
 function Sidebar() {
   return (
     <>
-      <Head>
-        <>
-          <meta charSet="UTF-8" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          {/* Favicon icon*/}
-          <link
-            rel="shortcut icon"
-            type="image/png"
-            href="./images/logos/favicon.png"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css"
-          />
-          {/* Core Css */}
-          <title>Modernize TailwindCSS HTML Admin Template</title>
-        </>
-      </Head>
-
       <aside
         id="application-sidebar-brand"
         className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 top-0 with-vertical h-screen z-[999] flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 sticky"
@@ -180,16 +153,6 @@ function Sidebar() {
         </div>
         {/* </aside> */}
       </aside>
-
-      <Script src="./libs/jquery/dist/jquery.min.js"></Script>
-      <Script src="./libs/simplebar/dist/simplebar.min.js"></Script>
-      <Script src="./libs/iconify-icon/dist/iconify-icon.min.js"></Script>
-      <Script src="./libs/@preline/dropdown/index.js"></Script>
-      <Script src="./libs/@preline/overlay/index.js"></Script>
-      <Script src="./js/sidebarmenu.js"></Script>
-
-      <Script src="./libs/apexcharts/dist/apexcharts.min.js"></Script>
-      <Script src="./js/dashboard.js"></Script>
     </>
   );
 }
