@@ -42,16 +42,16 @@ export default function Header() {
           aria-label="Global"
         >
           <ul className="icon-nav flex items-center gap-4 ">
-            <li className="relative xl:hidden">
+            <li className="relative xl:hidden block">
               <a
                 className="text-xl  icon-hover cursor-pointer text-heading"
                 id="headerCollapse"
                 data-hs-overlay="#application-sidebar-brand"
                 aria-controls="application-sidebar-brand"
                 aria-label="Toggle navigation"
-                href="javascript:void(0)"
+                href="#"
               >
-                <i className="ti ti-menu-2 relative z-1" />
+                <i className="ti ti-menu-2 relative z-1" />Menu
               </a>
             </li>
             <li className="relative">
@@ -161,7 +161,7 @@ export default function Header() {
                 />
               </a>
               <div
-                className="card hs-dropdown-menu transition-[opacity,margin] border border-gray-400 rounded-[7px] duration hs-dropdown-open:opacity-100 opacity-0 mt-2 min-w-max  w-[200px] hidden z-[12]"
+                className="card hs-dropdown-menu transition-[opacity,margin] border border-gray-400 rounded-[7px] duration hs-dropdown-open:opacity-100  mt-2 min-w-max  w-[200px] hidden z-[12]"
                 aria-labelledby="hs-dropdown-custom-icon-trigger"
               >
                 <div className="card-body p-0 py-2">

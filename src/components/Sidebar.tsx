@@ -6,7 +6,7 @@ function Sidebar() {
     <>
       <aside
         id="application-sidebar-brand"
-        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 top-0 with-vertical h-screen z-[999] flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar   transition-all duration-300 sticky"
+        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full  transform hidden xl:block xl:translate-x-0 xl:end-auto xl:bottom-0 top-0 with-vertical h-screen z-[999] flex-shrink-0 border-r-[1px] w-[270px] border-gray-400  bg-white left-sidebar  transition-all duration-300 sticky"
       >
         <link rel="stylesheet" href="/css/theme.css" />
         {/* ---------------------------------- */}
